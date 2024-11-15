@@ -41,12 +41,13 @@ Project Structure
 Here’s an overview of the main files and directories:
 
 
-Fork the repository.
+# Fork the repository.
 Create a new branch (git checkout -b feature-name).
 Make your changes and commit (git commit -am 'Add new feature').
 Push to the branch (git push origin feature-name).
 Open a pull request.
-Future Enhancements
+
+# Future Enhancements
 Here are some potential features we plan to add in the future:
 
 Multiple Story Paths: Add more complex storylines and branching paths.
