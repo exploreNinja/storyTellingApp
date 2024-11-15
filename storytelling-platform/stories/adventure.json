@@ -1,0 +1,42 @@
+{
+    "id": "expanded_adventure",
+    "title": "The Quest for the Lost Relic",
+    "sections": {
+        "start": "You find yourself standing at the entrance of an ancient temple. There are two paths in front of you.",
+        "path1": "You follow the path into a dense jungle, the air thick with mystery.",
+        "path2": "You walk down the stone staircase leading into a dark, musty cave.",
+        "jungle": "As you walk deeper into the jungle, you find a mysterious stone door with strange markings.",
+        "cave": "The cave is cold and silent, but you hear faint footsteps ahead. Suddenly, you see two tunnels.",
+        "stone_door": "You examine the door and find that it can only be opened with a magical key.",
+        "left_tunnel": "You venture down the left tunnel and discover a hidden room filled with ancient treasures.",
+        "right_tunnel": "You decide to explore the right tunnel and encounter a creature guarding a powerful relic.",
+        "treasures": "You take some of the treasures, but a trap is triggered, causing the room to shake violently!",
+        "creature": "The creature demands a challenge. You must choose wisely to avoid being harmed.",
+        "relic": "You successfully retrieve the relic, but now you must escape the temple before it collapses.",
+        "path3": "You accept the glowing orb from the figure. As soon as your fingers touch it, a surge of energy flows through you, almost overwhelming you with power. The orb grows brighter and brighter until your vision is consumed by its light. When you open your eyes, you find yourself in a new part of the cave, but the surroundings are different—far colder and darker. You hear strange whispers in the air, and the cave seems alive with a haunting presence. There's no turning back now. Ahead, you see two possible routes: one leads further into the cave, the other climbs upward toward a distant light.",
+        "path4": "You decline the orb. The cloaked figure nods solemnly and steps aside, but as you walk past, you notice the shadows around you shift. The path ahead seems to get darker, and the ground beneath you begins to tremble. A rumbling sound shakes the cave, and from the darkness ahead, a massive stone door rises from the ground. The door is covered in strange symbols that glow faintly, like the orb's light. It seems this cave hides secrets, and you must now decide: do you press forward into the darkness, or do you attempt to investigate the mysterious symbols on the door?",
+        "path5": "You decide to take the upward path toward the light. As you climb, the cave narrows, and the air becomes thinner. The light grows brighter, and eventually, you find yourself at the entrance to an ancient shrine. The doors of the shrine are ajar, and you can hear the faint sound of water flowing inside. The shrine is said to hold great power, but the entrance seems heavily guarded. You must decide: will you enter the shrine to seek the power within, or will you turn back and explore the other route?",
+        "stone_door1": "The stone door is ancient and covered with a myriad of symbols, some of which seem to shift as you study them. It's clear this is no ordinary door—it's a puzzle in itself. There’s a groove at the center of the door, as if something could be placed within it. The orb you obtained earlier pulses as you approach, but there’s no obvious way to insert it. It seems the door can only be opened with the correct sequence of actions. You must solve this riddle before the door will open, but beware—the wrong decision could trigger a deadly trap!",
+        "shrine_entry": "You push the shrine doors open, stepping into a large chamber with a pool of glowing water in the center. The water emits a strange, otherworldly hum. The chamber is lined with statues of ancient deities, each holding an object in their hands. At the far end of the room is a pedestal, upon which rests a gleaming crystal. The air feels thick with power. As you approach, the statues begin to stir. They are not just statues—they are guardians. Do you dare take the crystal, or will you seek a way to learn more about the power it holds first?",
+        "hidden_path": "You decide to investigate further before taking any action. The statues hold objects that seem to match the symbols you saw earlier, including an orb-like object similar to the one you hold. As you examine them, the ground shakes, and one of the statues moves aside, revealing a hidden passage. The passage is narrow and winding, but it leads deeper into the cave, past traps and dangers. The deeper you go, the more the whispers grow louder. What will you discover if you continue down this path?",
+        "danger_around": "The rumbling of the cave grows louder, and the whispers turn into voices. You start to feel a sense of dread that chills you to the bone. Ahead, the walls are covered in runes, glowing faintly. As you touch one, the ground shakes violently. A hidden trap has been triggered! The cave begins to collapse, and you must quickly escape before the entire place crumbles around you."
+    },
+
+    "choices": {
+        "choice1": {"text": "Enter the jungle", "next": "path1"},
+        "choice2": {"text": "Enter the cave", "next": "path2"},
+        "choice3": {"text": "Examine the stone door", "next": "stone_door"},
+        "choice4": {"text": "Take the left tunnel", "next": "left_tunnel"},
+        "choice5": {"text": "Take the right tunnel", "next": "right_tunnel"},
+        "choice6": {"text": "Take the treasures", "next": "treasures"},
+        "choice7": {"text": "Accept the creature's challenge", "next": "creature"},
+        "choice8": {"text": "Grab the relic and escape", "next": "relic"},
+        "choice9": {"text": "Accept the glowing orb from the cloaked figure", "next": "path3"},
+        "choice10": {"text": "Refuse the orb and proceed through the dark cave", "next": "path4"},
+        "choice11": {"text": "Climb upward towards the light", "next": "path5"},
+        "choice12": {"text": "Investigate the strange symbols on the stone door", "next": "stone_door"},
+        "choice13": {"text": "Enter the shrine to seek the power within", "next": "shrine_entry"},
+        "choice14": {"text": "Investigate the statues for clues", "next": "hidden_path"},
+        "choice15": {"text": "Leave the shrine and escape before danger strikes", "next": "danger_around"}
+    }
+}

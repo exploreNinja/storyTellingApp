@@ -1,0 +1,73 @@
+{
+    "id": "example_story",
+    "title": "The Adventure Begins",
+    "sections": {
+        "start": "You find yourself in a dark forest. There are lots of paths.",
+        "sunny_path": "You walk along a sunny path and encounter a friendly deer. The deer offers you a map to hidden treasure.",
+        "cave_entrance": "You step into the cave, and a mysterious figure hands you a glowing orb. The orb pulses with power.",
+        "treasure": "You follow the map and find an ancient treasure chest. It's locked.",
+        "trap": "You open the chest, and a trap is triggered! The cave starts to collapse!",
+        "orb": "The orb grants you mysterious powers, but at a great cost. Your vision blurs, and you hear ominous whispers.",
+        "treasure_locked": "You examine the chest and find a key hidden beneath the dirt. You unlock the chest.",
+        "treasure_found": "Inside the chest, you find an ancient treasure. It's a glowing relic.",
+        "treasure_escape": "With the treasure in hand, you race out of the cave, but the entrance is collapsing!",
+        "orb_effect": "The orb's power overwhelms you, and you begin to float. A dark figure appears.",
+        "orb_darkness": "You feel yourself being pulled into the orb’s power, as darkness consumes the cave.",
+        "escape_success": "You manage to escape the cave with the treasure, but the forest is now full of strange creatures.",
+        "deer_choice": "The deer looks at you curiously, and you now have two options. Do you want to take the map to treasure or ask for directions to the nearest town?"
+    },
+    "choices": {
+        "choice1": {
+            "text": "Take the sunny path",
+            "next": ["sunny_path"],
+            "choices": {
+                "choice1_1": {
+                    "text": "Accept the map from the deer",
+                    "next": ["treasure", "trap"]
+                },
+                "choice1_2": {
+                    "text": "Ask the deer for directions to the town",
+                    "next": ["deer_choice"]
+                }
+            }
+        },
+        "choice2": {
+            "text": "Enter the cave",
+            "next": ["cave_entrance"],
+            "choices": {
+                "choice2_1": {
+                    "text": "Take the glowing orb from the figure",
+                    "next": ["orb", "trap"]
+                },
+                "choice2_2": {
+                    "text": "Ask the figure for advice on how to survive the cave",
+                    "next": ["orb_effect", "orb_darkness"]
+                }
+            }
+        },
+        "choice3": {
+            "text": "Accept the map from the deer",
+            "next": ["treasure", "trap"]
+        },
+        "choice4": {
+            "text": "Take the glowing orb from the figure",
+            "next": ["orb", "trap"]
+        },
+        "choice5": {
+            "text": "Examine the chest for a way to open it",
+            "next": ["treasure_locked"]
+        },
+        "choice6": {
+            "text": "Take the treasure and escape",
+            "next": ["treasure_found", "treasure_escape"]
+        },
+        "choice7": {
+            "text": "Use the orb’s power",
+            "next": ["orb_effect"]
+        },
+        "choice8": {
+            "text": "Submit to the darkness of the orb",
+            "next": ["orb_darkness"]
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "id": "example_story",
+    "title": "The Adventure Begins",
+    "sections": {
+        "start": "You find yourself in a dark forest. There are two paths.",
+        "path1": "You walk along a sunny path and encounter a friendly deer.",
+        "path2": "The path leads to a cave where a mysterious figure awaits.",
+        "deer": "The deer looks at you curiously and offers you a map to a hidden treasure.",
+        "cave": "You step into the cave, and the mysterious figure hands you a glowing orb. The orb pulses with power."
+    },
+    "choices": {
+        "choice1": {"text": "Take the sunny path", "next": "path1"},
+        "choice2": {"text": "Enter the cave", "next": "path2"},
+        "choice3": {"text": "Accept the map from the deer", "next": "deer"},
+        "choice4": {"text": "Take the glowing orb from the figure", "next": "cave"}
+    }
+}
